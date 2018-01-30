@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Business Template</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="main_row clearfix">
+			<div class="logo">
+				<img src="image-white.png"> 
+				<span class="logo-text">LOGO</span>
+			</div>
+			<ul class="main_nav">
+				<li class="active"><a href="">Home</a></li>
+				<li><a href="">Products</a></li>
+				<li>
+					<div class="dropdown">
+						<a onclick="myFunction()" class="dropbtn">Services</a>
+						<div id="myDropdown" class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+					</div>
+				</li>
+				<li><a href="">Contact</a></li>	
+			</ul>
+		</div>
+		<!--- <hr>  border-bottom: 1px solid #ffffffb3; --> 
+		<hr size="1">
+		<div class="content">
+			<div class="inner-content">
+				<h1>Dramatically Engage</h1>
+				<p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+				<a href="#" class="btn-engage btn-btn btn-padding">Engage Now</a>
+			</div>
+		</div>	
+	</header>
+	<section>
+		<h1>hiiiii</h1>
+	</section>
+
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
