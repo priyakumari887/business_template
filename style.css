@@ -160,3 +160,140 @@ header .content .inner-content h1 {
     color: #fff;
     background-color: limegreen;
 }
+
+.sec-2 
+{
+   /* color: #fff;*/
+    background-color: yellowgreen;
+    padding: 70px 0;
+    text-align: center;
+}
+.sec-content
+{
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	max-width: 50%;
+    margin: 0px auto;
+}
+.sec-image img
+{
+	height: 70px;
+}
+.sec-content h1
+{
+	font-size: 30px;
+	color: white;
+	line-height: 1.1;
+}
+.sec-content p
+{
+	font-size: 16px;
+	color:#ffffffb3;
+	line-height: 1.5;
+	padding: 15px;
+}
+.sec-3
+{
+	padding: 100px 100px;
+}
+.mike-data
+{
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
+.mike-data img
+{
+    width: 540px;
+    height: 363px;
+    border-radius: 50%;
+  
+}
+.mike-data h2
+{
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-bottom: 17px;
+	margin-top: 19px;
+}
+.mike-data p
+{
+	color: #777;
+	font-size: 21px;
+	font-weight: 300;
+    line-height: 1.4;
+    max-width: 500px;
+}
+.btn-padding-2 {
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 1.333;
+    margin-top: 28px;
+}
+.mike-data a
+{
+	text-decoration:none;
+}
+.sec-4
+{
+	padding: 100px 100px;
+	background-color: #222;
+}
+.sec-4-mike-data
+{
+	display: inline-block;
+	float: right;
+	width: 50%;
+}
+.sec-4-mike-data img
+{
+    width: 540px;
+    height: 363px;
+    border-radius: 50%;
+  
+}
+.sec-4-mike-data h2
+{
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-bottom: 17px;
+	margin-top: 19px;
+	color: white;
+}
+.sec-4-mike-data p
+{
+	color: #ffffffb3;
+	font-size: 21px;
+	font-weight: 300;
+    line-height: 1.4;
+    max-width: 500px;
+}
+.sec-4-btn 
+{
+    color: black;
+    background-color: #fff;
+    transition: all .35s;
+}
+.sec-4-mike-data a
+{
+	text-decoration:none;
+}
+.btn-padding-4 {
+    padding: 17px 32px;
+    font-size: 18px;
+    line-height: 1.333;
+    margin-top: 28px;
+}
+.btn-engage-4 {
+	display: inline-block;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-engage-4:hover 
+{
+    background-color: #ccc;
+}
