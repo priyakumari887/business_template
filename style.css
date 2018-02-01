@@ -297,3 +297,63 @@ header .content .inner-content h1 {
 {
     background-color: #ccc;
 }
+.images
+{
+	list-style-type: none;
+}
+.images li
+{
+	display: inline-block;
+	float: left;
+	width: 33.3333%;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.images li img
+{
+	width: 100%;
+	height: 100%;
+}
+.text-block
+{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-block h4
+{
+	font-size: 35px;
+	color: white;
+}
+.sec-5
+{
+	padding: 20px 0 40px;
+    text-align: center;
+}
+.sec-5-image h1
+{
+	font-size: 30px;
+	margin-top: 2px;
+	margin-bottom: 15px;
+	font-weight: 500;
+	line-height: 1.1;
+}
+.sec-5-image img
+{
+	margin-top: 35px;
+}
+.sec-5-content p
+{
+	color: #777;
+	font-size: 21px;
+	font-weight: 300;
+    line-height: 1.4;
+    max-width: 1022px;
+    margin: 0 auto;
+}
+.sec-5-content a
+{
+	text-decoration:none;
+}
