@@ -742,36 +742,39 @@ header .content .inner-content h1 {
     background-color: #ccc;
 }
 
-  .gallery {
-  	display: flex;
-  }
-.gallery-height {
+.gallery-height{
 	width: 33.33%;
+	display: inline-block;
+	line-height: 200px;
+	text-align: center;
 	height: 200px;
 	max-height: 200px;
 	box-sizing: border-box;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	cursor: pointer;
 }
-.gallery p {
-	color: white;
+
+.gallery a
+{
+	text-decoration: none;
 	font-size: 35px;
+	color: white;
 }
 .gallery-1 {
 	background: url("./pic1.jpg") no-repeat center;
 	background-size: cover;
+	float: left;
 }
 .gallery-2 {
 	background: url("./pic4.jpg") no-repeat center;
 	background-size: cover;
+	float: left;
 }
 .gallery-3 {
 	background: url("./pic5.jpg") no-repeat center;
 	background-size: cover;
+	float: left;
 }
-.gallery > div:hover {
+.gallery > a:hover {
 	border: 10px solid rgba(255,255,255,0.3);
 	background-size: 110%;
 }
