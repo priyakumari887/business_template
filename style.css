@@ -298,7 +298,79 @@ header .content .inner-content h1 {
 {
     background-color: #ccc;
 }
-.images
+
+  .gallery {
+  	display: flex;
+  }
+.gallery-1, .gallery-2, .gallery-3 {
+	width: 33.33%;
+	height: 200px;
+	max-height: 200px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.gallery p {
+	color: white;
+	font-size: 35px;
+}
+.gallery-1 {
+	background: url("./pic1.jpg") no-repeat center;
+	background-size: cover;
+}
+.gallery-2 {
+	background: url("./pic4.jpg") no-repeat center;
+	background-size: cover;
+}
+.gallery-3 {
+	background: url("./pic5.jpg") no-repeat center;
+	background-size: cover;
+}
+.gallery > div:hover {
+	border: 10px solid rgba(255,255,255,0.3);
+	background-size: 110%;
+}
+
+/*.gallery-images a
+{
+	color: white;
+    text-shadow: 0px 0px 40px black;
+    text-decoration: none;
+    transition: all .35s;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+.image1
+{
+	background-size: cover;
+    background-position: 50% 50%;
+    background: url(pic1.jpg);
+}
+.image2
+{
+	background-size: cover;
+    background-position: 50% 50%;
+    background: url(pic4.jpg);
+}
+.image3
+{
+	background-size: cover;
+    background-position: 50% 50%;
+    background: url(pic5.jpg);
+}
+.image-height
+{
+    height: 200px;
+    line-height: 180px;
+    text-align: center;
+}*/
+
+
+
+/*.images
 {
 	list-style-type: none;
 }
@@ -327,7 +399,7 @@ header .content .inner-content h1 {
 {
 	font-size: 35px;
 	color: white;
-}
+}*/
 .sec-5
 {
 	padding: 20px 0 40px;
