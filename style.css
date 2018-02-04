@@ -745,7 +745,7 @@ header .content .inner-content h1 {
   .gallery {
   	display: flex;
   }
-.gallery-1, .gallery-2, .gallery-3 {
+.gallery-height {
 	width: 33.33%;
 	height: 200px;
 	max-height: 200px;
