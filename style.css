@@ -161,28 +161,42 @@ header .content .inner-content h1 {
 	max-height: 200px;
 	box-sizing: border-box;
 	cursor: pointer;
+	position: relative;
 	/*transition: background-size 5s;*/
 }
 .gallery a
 {
 	text-decoration: none;
 }
-.gallery-1 {
+.gallery-1 
+{
 	background: url("./pic1.jpg") no-repeat center;
 	background-size: cover;
 }
-.gallery-2 {
+.gallery-2 
+{
 	background: url("./pic4.jpg") no-repeat center;
 	background-size: cover;
 }
-.gallery-3 {
+.gallery-3 
+{
 	background: url("./pic5.jpg") no-repeat center;
 	background-size: cover;
 }
-.gallery > a:hover {
+.gallery > a:hover 
+{
 	border: 10px solid rgba(255,255,255,0.3);
 	background-size: 110%;
 }
+
+.gallery-height span 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .btn-padding 
 {
     padding: 15px 30px;
